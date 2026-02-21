@@ -15,6 +15,7 @@ from typing import Dict
 from google import genai
 from google.genai import types
 
+
 from langchain_community.chat_message_histories import ChatMessageHistory
 
 from utils import Settings, load_settings, trim_history_to_words, build_transcript, load_prompt
