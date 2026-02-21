@@ -32,4 +32,4 @@ jobs:
 
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
 
-        run: git push --force https://gurdipsingh:${HF_TOKEN}@huggingface.co/spaces/gurdipsingh/my-genai-api main
+        run: git push --force https://gurdipsingh:${HF_TOKEN}@huggingface.co/spaces/gurdipsingh/my-genai-api.git main
