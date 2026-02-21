@@ -12,7 +12,8 @@ from utils import load_settings
 class ChatRequest(BaseModel):
     message: str
     session_id: Optional[str] = None
-    max_words_memory: int = 5000
+    max_words_memory: int = 5000 
+# /
 
 
 class ChatResponse(BaseModel):
