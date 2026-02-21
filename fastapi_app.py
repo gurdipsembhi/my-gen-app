@@ -13,7 +13,7 @@ class ChatRequest(BaseModel):
     message: str
     session_id: Optional[str] = None
     max_words_memory: int = 5000 
-# /
+# / guridp singh
 
 
 class ChatResponse(BaseModel):
